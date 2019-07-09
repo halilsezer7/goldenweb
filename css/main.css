@@ -1,0 +1,196 @@
+html,
+body,
+#cover {
+    height: 100%;
+}
+
+#cover {
+    background: url('../images/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top {
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+h1 {
+    margin-top: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700px;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #fed136;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    transition: 0.5s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #fed136;
+}
+
+a.nav-link {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 14px;
+    color: #ffffff !important;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+a.nav-link:hover {
+    color: #fed136 !important;
+}
+
+#services {
+    padding: 120px 0;
+}
+
+.services-top h3,
+.portfolio-top h3,
+.aboutUs-top h3,
+.team-top h3 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.services-top p,
+.portfolio-top p,
+.aboutUs-top p,
+.team-top p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.services-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #222;
+    margin-top: 24px;
+}
+
+.services-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #777;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.card {
+    border-style: none;
+}
+
+.portfolio-content .row {
+    margin-bottom: 50px;
+}
+
+#aboutUs {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.aboutUs-content .row {
+    margin-bottom: 90px;
+}
+
+.aboutUs-content {
+    position: relative;
+}
+
+.aboutUs-content::before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    background-color: #f1f1f1;
+    margin: -2px;
+}
+
+.aboutUs-circle {
+    position: relative;
+}
+
+.aboutUs-circle::before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 175px;
+    height: 175px;
+    background-color: #fed136;
+    border-radius: 170px;
+    border: 8px solid #f1f1f1;
+    left: 50%;
+    margin-left: -91.5px;
+}
+
+.aboutUs-content img::before {
+    position: relative;
+}
+
+.aboutUs-content img {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 175px;
+    height: 175px;
+    border-radius: 170px;
+    border: 8px solid #f1f1f1;
+    left: 50%;
+    margin-left: -91.5px;
+}
+
+.yellow-text {
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #fff;
+}
+
+#team {
+    padding-top: 240px;
+    background-color: #f9f9f9;
+}
+
+.team-circle img {
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
+    border: 8px solid #f1f1f1;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
