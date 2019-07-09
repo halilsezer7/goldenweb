@@ -1,10 +1,10 @@
 html,
 body,
-#cover {
+#home {
     height: 100%;
 }
 
-#cover {
+#home {
     background: url('../images/banner.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -193,4 +193,71 @@ a.nav-link:hover {
     border: 8px solid #f1f1f1;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+#partner {
+    padding: 60px 0;
+}
+#contact {
+    background: url('../images/footer.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px;
+}
+.contact-top h3 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 40px;
+    font-weight: 700px;
+    color: #ffffff;
+}
+.contact-top p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+#name, #email, #Subject {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+textarea {
+    width: 90%;
+    height: 203px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+.golden-form-element {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 14px;
+    font-weight: 700px;
+}
+#footer {
+    padding: 20px 0;
+}
+#footer p {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400px;
+    color: #555555;
+}
+.company-social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.company-social-icon {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+
 }
